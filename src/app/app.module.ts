@@ -15,6 +15,7 @@ import {FormsModule} from '@angular/forms';
 import { AboutComponent } from './about/about.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { RoutingModule } from './routing/routing.module';
+import { NavbarComponent } from './navbar/navbar.component';
 // const routes: Routes = [
 //   {path: "goals", component:GoalComponent},
 //   {path: "about", component: AboutComponent},
@@ -31,7 +32,8 @@ import { RoutingModule } from './routing/routing.module';
     DateCountPipe,
     GoalFormComponent,
     AboutComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
